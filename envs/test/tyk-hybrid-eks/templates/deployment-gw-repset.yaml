@@ -54,7 +54,7 @@ spec:
           - name: REDIGOCLUSTER_SHARDCOUNT
             value: "128"
           - name: TYK_GW_STORAGE_ADDRS
-            value: "andy-redis.ti3wwj.ng.0001.euw2.cache.amazonaws.com:6379"
+            value: "redis.tyk.svc.cluster.local:6379"
           - name: TYK_GW_STORAGE_ENABLECLUSTER
             value: "false"
           - name: TYK_GW_STORAGE_DATABASE
