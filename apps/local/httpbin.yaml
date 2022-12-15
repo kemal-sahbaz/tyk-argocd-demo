@@ -1,9 +1,9 @@
 apiVersion: tyk.tyk.io/v1alpha1
 kind: ApiDefinition
 metadata:
-  name: operator-httpbin
+  name: operator-httpbin-local
 spec:
-  name: operator-httpbin
+  name: operator-httpbin-local
   use_keyless: true
   #use_standard_auth: true
   tags:
@@ -13,7 +13,7 @@ spec:
   active: true
   proxy:
     target_url: http://httpbin.org
-    listen_path: /operator-httpbin
+    listen_path: /operator-httpbin-local
     strip_listen_path: true
   #strip_auth_data: true
 # ---
